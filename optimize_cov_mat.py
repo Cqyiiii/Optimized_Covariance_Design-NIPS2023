@@ -26,7 +26,7 @@ args = parser.parse_args()
 if args.dataset == "stf":
     path = 'Dataset/socfb-Stanford3.mtx'
 elif args.dataset == "cornell":
-    path = 'Dataset/socfb-Stanford3.mtx'
+    path = 'Dataset/socfb-Cornell5.mtx'
 
 df = pd.read_table(path, skiprows=1, names = ["source", "target"], sep=" ")
 g = nx.from_pandas_edgelist(df)

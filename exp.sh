@@ -1,6 +1,6 @@
 for data in "stf" "cornell"
 do
-for res in 1000
+for res in 2 5 10
 do
 for md in "linear" "multi"
 do
